@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    
+    padding: 0;
+}
+
+.container{
+
+    height: 100vh;
+
+    width: 100%;
+
+    background-image: url(img/background.png);
+
+    background-position: center;
+
+    background-size: cover;
+
+    padding-left: 5%;
+
+    padding-right: 5%;
+
+    box-sizing: border-box;
+
+    position: relative;
+}
+
+.nev_bar{
+
+    width: 100%;
+
+    height: 15vh;
+
+    margin: auto;
+
+    display: flex;
+
+    align-items: center;
+}
+
+.logo
+{
+    width: 160px;
+
+    cursor: pointer;
+}
+
+.cart
+{
+    width: 40px;
+
+    cursor: pointer;
+}
