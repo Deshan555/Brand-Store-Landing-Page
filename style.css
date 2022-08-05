@@ -89,3 +89,17 @@ nev ul li a{
 
     color: #232d60;
 }
+
+.content p{
+
+    font-size: 20px;
+
+    color: #6a7199;
+}
+
+.content{
+
+    margin-left: 10%;
+
+    margin-top: 10%;
+}
