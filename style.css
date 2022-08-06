@@ -72,9 +72,13 @@ nev ul li a{
 
     text-decoration: none;
 
-    color: black;
+    color: #232d60;
 
     text-transform: uppercase;
+
+    font-weight: bold;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .content h1{
@@ -88,6 +92,10 @@ nev ul li a{
     margin-bottom: 15px;
 
     color: #232d60;
+
+    font-weight: lighter;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .content p{
@@ -95,11 +103,66 @@ nev ul li a{
     font-size: 20px;
 
     color: #6a7199;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.content{
+
+.content {
 
     margin-left: 10%;
 
     margin-top: 10%;
+}
+
+.arrow-icons{
+
+    margin-top: 30px;
+
+    display: flex;
+}
+
+.arrow-icons img{
+
+    width: 40px;
+
+    margin-right: 25px;
+}
+
+.home_img{
+
+    height: 90%;
+
+    position: absolute;
+
+    bottom: 0;
+
+    right: 160px;
+
+}
+
+.social_links{
+
+    transform: rotate(-90deg);
+
+    position: absolute;
+
+    left: -80px;
+
+    bottom: 180px;
+}
+
+.social_links a{
+
+    text-decoration: none;
+
+    padding-right: 14px;
+
+    color: #232d60;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
